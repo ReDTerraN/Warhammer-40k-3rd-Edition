@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="785b-e45d-f46b-fe58" name="Tau (2001)" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="96e2-b781-50d7-3d18" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="785b-e45d-f46b-fe58" name="Tau (2001)" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="96e2-b781-50d7-3d18" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="9822-4d10-9d64-e6a8" name="Shas&apos;el" hidden="false" collective="false" import="true" targetId="b044-07fe-a372-df49" type="selectionEntry"/>
     <entryLink id="b900-fb10-3205-ff40" name="Shas&apos;o" hidden="false" collective="false" import="true" targetId="72b4-c34f-a2ff-9323" type="selectionEntry"/>
@@ -1125,6 +1125,7 @@ Once attached, the Kroot Hounds function as part of the Carnivore squad they are
               <entryLinks>
                 <entryLink id="106a-6436-cbd7-f374" name="XV88 Broadside Battlesuit Hard Point Options" hidden="false" collective="false" import="true" targetId="e300-8e1d-4235-1a3c" type="selectionEntryGroup"/>
                 <entryLink id="d66a-8bfe-7ce1-fc2e" name="Hard-Wired Support Systems" hidden="false" collective="false" import="true" targetId="c406-53c8-88ca-ce9c" type="selectionEntryGroup"/>
+                <entryLink import="true" name="Support Systems" hidden="false" id="7b0b-07c2-3686-983d" type="selectionEntryGroup" targetId="c5ff-4f81-cf92-982d"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="75"/>
@@ -1136,6 +1137,7 @@ Once attached, the Kroot Hounds function as part of the Carnivore squad they are
               </infoLinks>
               <entryLinks>
                 <entryLink id="eb12-dcac-f3e2-339b" name="XV88 Broadside Battlesuit Hard Point Options" hidden="false" collective="false" import="true" targetId="e300-8e1d-4235-1a3c" type="selectionEntryGroup"/>
+                <entryLink import="true" name="Support Systems" hidden="false" id="38ca-3815-4641-db38" type="selectionEntryGroup" targetId="c5ff-4f81-cf92-982d"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="70"/>
@@ -1151,6 +1153,7 @@ Once attached, the Kroot Hounds function as part of the Carnivore squad they are
               <entryLinks>
                 <entryLink id="60bf-1549-68be-e870" name="XV88 Broadside Battlesuit Hard Point Options" hidden="false" collective="false" import="true" targetId="e300-8e1d-4235-1a3c" type="selectionEntryGroup"/>
                 <entryLink id="b1c7-29e8-d6e0-972a" name="Hard-Wired Support Systems" hidden="false" collective="false" import="true" targetId="c406-53c8-88ca-ce9c" type="selectionEntryGroup"/>
+                <entryLink import="true" name="Support Systems" hidden="false" id="57d0-a829-d0d5-b178" type="selectionEntryGroup" targetId="c5ff-4f81-cf92-982d"/>
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="80"/>
@@ -2309,6 +2312,7 @@ StealthSuit (Shroud from Necron): +25%</comment>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99e3-0af2-7077-9223" type="max"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="17d6-fadc-1753-b299"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="45d0-882a-e386-953a" name="Multi-tracker" hidden="false" collective="false" import="true" type="upgrade">
@@ -2377,6 +2381,9 @@ StealthSuit (Shroud from Necron): +25%</comment>
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="2"/>
           </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9efe-31a7-d81b-67ec"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -2621,66 +2628,10 @@ StealthSuit (Shroud from Necron): +25%</comment>
     </selectionEntryGroup>
     <selectionEntryGroup id="e300-8e1d-4235-1a3c" name="XV88 Broadside Battlesuit Hard Point Options" hidden="false" collective="false" import="true">
       <constraints>
-        <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51c8-d423-98ac-b5b1" type="max"/>
-        <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ccb-737a-ed70-5dbe" type="min"/>
+        <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51c8-d423-98ac-b5b1" type="max"/>
+        <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ccb-737a-ed70-5dbe" type="min"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="0ef8-2934-8820-794c" name="Target Lock" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="907f-3d3d-439d-36ab" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="7fc7-8485-42a6-f13f" name="Sensor - Target Lock" hidden="false" targetId="787b-9a81-c4e0-ee02" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="752e-27ec-bacf-9c00" name="Shield Generator" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f91a-2699-a060-8daf" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="55be-b518-a57b-67c9" name="Shield Generator" hidden="false" targetId="b433-5621-8ff1-e373" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="eea7-959c-ecab-11a2" name="Drone Controller" hidden="false" collective="false" import="true" type="upgrade">
-          <selectionEntryGroups>
-            <selectionEntryGroup id="1d67-7aa5-0525-8d70" name="Drones" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4cc-4644-8acc-4de1" type="max"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1269-12f1-77e7-4fe0" type="min"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="9d58-1325-4a6a-2d0f" name="Gun Drone" hidden="false" collective="false" import="true" type="upgrade">
-                  <infoLinks>
-                    <infoLink id="4f2e-d654-1b08-16a2" name="Gun Drone" hidden="false" targetId="3fc2-241a-c6b0-45d6" type="profile"/>
-                    <infoLink id="2592-b5df-5fbd-5a4a" name="Jetpack" hidden="false" targetId="489d-ec6a-0dcb-d81f" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="8751-b210-6f25-e4f3" name="Shield Drone" hidden="false" collective="false" import="true" type="upgrade">
-                  <infoLinks>
-                    <infoLink id="6752-d7db-35d0-d364" name="Shield Drone" hidden="false" targetId="ac88-d973-733f-edd2" type="profile"/>
-                    <infoLink id="cccb-5cbf-9075-86cf" name="Invulnerable Saving Throw" hidden="false" targetId="97b3-810d-a09e-872b" type="rule"/>
-                    <infoLink id="29a6-bb9d-8d10-4b0c" name="Jetpack" hidden="false" targetId="489d-ec6a-0dcb-d81f" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="f1a7-af3a-42c5-245a" name="Smart Missle System" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="2025-f5f2-d4f6-b2f6" value="0">
@@ -2939,28 +2890,6 @@ StealthSuit (Shroud from Necron): +25%</comment>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="21"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="da1b-c2d3-7149-7f53" name="Multi-tracker" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7616-ab12-95d1-24bb" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="dde6-419c-9af0-54f9" name="Sensor - Multi-tracker" hidden="false" targetId="6061-4fc4-3974-c586" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="e87b-7235-f11d-3c25" name="Target Lock" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a280-c52d-d83f-ad8d" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="6719-9c25-b367-b6de" name="Sensor - Target Lock" hidden="false" targetId="787b-9a81-c4e0-ee02" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="9395-2d65-6a1e-98b8" name="Shield Generator" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d460-58f2-1012-ebe4" type="max"/>
@@ -2972,41 +2901,60 @@ StealthSuit (Shroud from Necron): +25%</comment>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e083-f64d-80b0-5437" name="Drone Controller" hidden="false" collective="false" import="true" type="upgrade">
-          <selectionEntryGroups>
-            <selectionEntryGroup id="296e-f714-3e03-af00" name="Drones" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f10a-875e-c8a5-2e33" type="max"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82dc-9577-5493-c061" type="min"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="547b-f149-d446-0edf" name="Gun Drone" hidden="false" collective="false" import="true" type="upgrade">
-                  <infoLinks>
-                    <infoLink id="7491-7208-aba9-7eec" name="Gun Drone" hidden="false" targetId="3fc2-241a-c6b0-45d6" type="profile"/>
-                    <infoLink id="fa91-8adb-bb5e-d3f2" name="Jetpack" hidden="false" targetId="489d-ec6a-0dcb-d81f" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="2919-beb2-a2c3-3187" name="Shield Drone" hidden="false" collective="false" import="true" type="upgrade">
-                  <infoLinks>
-                    <infoLink id="fae8-dc2a-db43-f88c" name="Shield Drone" hidden="false" targetId="ac88-d973-733f-edd2" type="profile"/>
-                    <infoLink id="937c-fa98-eda3-59c6" name="Invulnerable Saving Throw" hidden="false" targetId="97b3-810d-a09e-872b" type="rule"/>
-                    <infoLink id="379b-fcc1-88ef-9704" name="Jetpack" hidden="false" targetId="489d-ec6a-0dcb-d81f" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Target Lock" hidden="false" id="8ae6-2a90-7cad-8367" type="selectionEntry" targetId="4c94-be3e-7ed0-c002">
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Multi-tracker" hidden="false" id="072b-4448-30c4-5866" type="selectionEntry" targetId="45d0-882a-e386-953a">
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Drone Controller" hidden="false" id="7e9e-bfb9-552e-876c" type="selectionEntry" targetId="8a75-730b-faf4-efad">
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
           </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Support Systems" id="c5ff-4f81-cf92-982d" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ffa-1f2d-c511-274e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5ac4-9fe1-d64f-88d6"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Shield Generator" hidden="false" id="752e-27ec-bacf-9c00" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f91a-2699-a060-8daf" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Shield Generator" id="55be-b518-a57b-67c9" hidden="false" targetId="b433-5621-8ff1-e373" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Drone Controller" hidden="false" id="d598-d1ec-876f-4597" type="selectionEntry" targetId="8a75-730b-faf4-efad">
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Multi-tracker" hidden="false" id="ea2f-ada4-db57-46bc" type="selectionEntry" targetId="45d0-882a-e386-953a">
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Target Lock" hidden="false" id="6cfc-5ba4-fdc3-a496" type="selectionEntry" targetId="4c94-be3e-7ed0-c002">
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>

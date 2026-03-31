@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="04bd-002e-d5fe-e9a6" name="Imperial Guard (2003)" revision="11" battleScribeVersion="2.03" authorName="Kris Snyder" library="false" gameSystemId="96e2-b781-50d7-3d18" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="04bd-002e-d5fe-e9a6" name="Imperial Guard (2003)" revision="12" battleScribeVersion="2.03" authorName="Kris Snyder" library="false" gameSystemId="96e2-b781-50d7-3d18" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <categoryEntries>
     <categoryEntry id="3670-6ad0-8988-c35b" name="Officer" hidden="false"/>
     <categoryEntry id="5a7d-a0bb-d5e1-e79a" name="Standard Bearer" hidden="false"/>
@@ -5596,11 +5596,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="bd69-5faa-e4ed-c076" name="Basilisk" hidden="false" collective="false" import="true" type="model">
-      <rules>
-        <rule id="6cb0-ef09-7050-5ec5" name="Indirect Fire" hidden="false">
-          <description>May fire the earthshaker in Indirect File mode instead of direct fire. A weapon that does so changes its range to G36&quot;-240&quot;.</description>
-        </rule>
-      </rules>
       <infoLinks>
         <infoLink id="be71-dbb1-43fb-465d" name="Basilisk" hidden="false" targetId="dc37-efd3-1bf6-6cc9" type="profile"/>
         <infoLink id="1372-cdbe-4abe-75f1" name="Earthshaker" hidden="false" targetId="0d02-965c-b2d8-eab5" type="profile"/>
@@ -5613,6 +5608,21 @@
       <costs>
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="100"/>
       </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Indirect Fire" hidden="false" id="13eb-eef7-3782-4f38">
+          <rules>
+            <rule name="Indirect Fire" id="6cb0-ef09-7050-5ec5" hidden="false">
+              <description>May fire the earthshaker in Indirect File mode instead of direct fire. A weapon that does so changes its range to G36&quot;-240&quot;.</description>
+            </rule>
+          </rules>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="27a0-2371-6160-4e10"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry id="7378-a24b-e655-ba2b" name="Lord Castellan Ursarkar E. Creed" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
