@@ -2751,6 +2751,59 @@ StealthSuit (Shroud from Necron): +25%</comment>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="1064-3c61-359b-cb94" name="XV8 Crisis Battlesuit Hard Point Options" hidden="false" collective="false" import="true">
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="decrement" value="1" field="8a60-b903-222a-2ba6"/>
+            <modifier type="decrement" value="1" field="c1d8-151b-903c-de05"/>
+          </modifiers>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="0184-fb3b-e7b6-0bbf" shared="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="fb12-e0c8-1e7d-e4e3" shared="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="b787-6a1f-6287-8632" shared="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="025e-9313-70b2-0257" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+          <comment>Twin-linked weapons take two options</comment>
+        </modifierGroup>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="decrement" value="1" field="8a60-b903-222a-2ba6"/>
+          </modifiers>
+          <conditionGroups>
+            <conditionGroup type="count" min="2" max="2">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="0184-fb3b-e7b6-0bbf" shared="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="fb12-e0c8-1e7d-e4e3" shared="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="b787-6a1f-6287-8632" shared="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="025e-9313-70b2-0257" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+          <comment>Can&apos;t have two Twin-links weapons</comment>
+        </modifierGroup>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="decrement" value="1" field="8a60-b903-222a-2ba6"/>
+            <modifier type="add" value="{this} is not allowed to have more then two weapons" field="error"/>
+          </modifiers>
+          <conditionGroups>
+            <conditionGroup type="count" min="3" max="3">
+              <conditions>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="38e1-ce83-2ad3-58ac" shared="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="d506-d857-901b-fc21" shared="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="b3f2-e468-282b-cb8f" shared="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="60b5-2db1-14e8-e4c6" shared="true"/>
+                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="452a-6345-ec1b-2b42" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+          <comment>Can&apos;t have three weapons</comment>
+        </modifierGroup>
+      </modifierGroups>
       <constraints>
         <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a60-b903-222a-2ba6" type="max"/>
         <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1d8-151b-903c-de05" type="min"/>
