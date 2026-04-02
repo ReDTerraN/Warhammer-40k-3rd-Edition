@@ -2769,22 +2769,6 @@ StealthSuit (Shroud from Necron): +25%</comment>
           </conditionGroups>
           <comment>Twin-linked weapons take two options</comment>
         </modifierGroup>
-        <modifierGroup type="and">
-          <modifiers>
-            <modifier type="decrement" value="1" field="8a60-b903-222a-2ba6"/>
-          </modifiers>
-          <conditionGroups>
-            <conditionGroup type="count" min="2" max="2">
-              <conditions>
-                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="0184-fb3b-e7b6-0bbf" shared="true"/>
-                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="fb12-e0c8-1e7d-e4e3" shared="true"/>
-                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="b787-6a1f-6287-8632" shared="true"/>
-                <condition type="greaterThan" value="0" field="selections" scope="parent" childId="025e-9313-70b2-0257" shared="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-          <comment>Can&apos;t have two Twin-links weapons</comment>
-        </modifierGroup>
       </modifierGroups>
       <constraints>
         <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a60-b903-222a-2ba6" type="max"/>
