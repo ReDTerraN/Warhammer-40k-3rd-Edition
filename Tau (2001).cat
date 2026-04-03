@@ -431,6 +431,9 @@
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Pulse Carbine" id="17c9-02e7-d9f6-aa4b" hidden="false" type="profile" targetId="b90e-cd3a-8611-3762"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry id="3e34-e020-8a42-b6eb" name="Photon Grenades" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -1445,6 +1448,7 @@ Additionally, any Tau unit joined by Aun&apos;shi gain +1 I and +1 A in close co
           </modifiers>
         </infoLink>
         <infoLink id="364f-3713-0c34-fbd4" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+        <infoLink name="Escape Pods" id="a9f8-0692-95b5-60b0" hidden="false" type="rule" targetId="6b9f-6d66-0612-c47b"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="000f-3c8d-3c71-c3b3" name="Heavy Support" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
@@ -1461,6 +1465,7 @@ Additionally, any Tau unit joined by Aun&apos;shi gain +1 I and +1 A in close co
       </selectionEntries>
       <entryLinks>
         <entryLink id="df6b-8997-8a55-0f06" name="Tau Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="660d-edf9-04e6-9966" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Escape Pods" hidden="false" id="cc75-4aab-6fbf-6d24" type="selectionEntry" targetId="e84a-d06a-0218-17b0"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="220"/>
@@ -2597,7 +2602,7 @@ StealthSuit (Shroud from Necron): +25%</comment>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
-                <conditionGroup type="and">
+                <conditionGroup type="or">
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fb65-7a01-3259-46bc" type="notInstanceOf"/>
                     <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4725-b232-bbd7-82e3" type="notInstanceOf"/>
