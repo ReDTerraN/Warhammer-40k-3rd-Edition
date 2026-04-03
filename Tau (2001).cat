@@ -1484,52 +1484,44 @@ Additionally, any Tau unit joined by Aun&apos;shi gain +1 I and +1 A in close co
           <description>A Gun Drone squadron has its processors linked to enable it to have the capacity for independent action. They are programmed for self-preservation and take Leadership tests normally. If their numbers are reduced to less than 3 their Leadership drops to 4.</description>
         </rule>
       </rules>
-      <selectionEntries>
-        <selectionEntry id="d396-f069-a1f3-0efc" name="Heavy Gun Drone" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21fa-dfaa-8d2a-cc1e" type="min"/>
-            <constraint field="selections" scope="parent" value="6" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03d0-bacb-f163-0893" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="51f7-58e3-89b9-5dac" name="Heavy Gun Drone" hidden="false" targetId="1d34-e486-f17a-a3c2" type="profile"/>
-            <infoLink id="88c2-f37f-9d5d-bbfd" name="Jetpack" hidden="false" targetId="9db9-94c1-ce97-f40a" type="rule"/>
-          </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="c8c3-6e5b-4648-d488" name="Weapon" hidden="false" collective="false" import="true">
-              <selectionEntries>
-                <selectionEntry id="1eb5-3694-2c0f-71cd" name="Twin-Linked Burst Cannon" hidden="false" collective="false" import="true" type="upgrade">
-                  <infoLinks>
-                    <infoLink id="e1d7-0925-8dda-9387" name="Burst Cannon" hidden="false" targetId="9e5e-b881-3c15-e101" type="profile"/>
-                    <infoLink id="05da-d222-64d3-6528" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="626d-4c91-ede5-ea3c" name="Burst Cannon and Markerlight" hidden="false" collective="false" import="true" type="upgrade">
-                  <infoLinks>
-                    <infoLink id="fc67-dac9-eef0-2354" name="Burst Cannon" hidden="false" targetId="9e5e-b881-3c15-e101" type="profile">
-                      <modifiers>
-                        <modifier type="set" field="name" value="Twin-Linked Burst Cannon"/>
-                      </modifiers>
-                    </infoLink>
-                    <infoLink id="0fb4-b88a-8ebb-24c1" name="Markerlight" hidden="false" targetId="93c5-ed67-a327-95e9" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <costs>
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0"/>
       </costs>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Heavy Gun Drone" id="c8c3-6e5b-4648-d488" hidden="false" collective="false" import="true" defaultSelectionEntryId="626d-4c91-ede5-ea3c">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Twin-Linked Burst Cannon" hidden="false" id="1eb5-3694-2c0f-71cd" collective="false">
+              <infoLinks>
+                <infoLink name="Burst Cannon" id="e1d7-0925-8dda-9387" hidden="false" targetId="9e5e-b881-3c15-e101" type="profile"/>
+                <infoLink name="Twin-Linked" id="05da-d222-64d3-6528" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="Twin-Linked Burst Cannon" field="name"/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Burst Cannon and Markerlight" hidden="false" id="626d-4c91-ede5-ea3c" collective="false">
+              <infoLinks>
+                <infoLink name="Burst Cannon" id="fc67-dac9-eef0-2354" hidden="false" targetId="9e5e-b881-3c15-e101" type="profile"/>
+                <infoLink name="Markerlight" id="0fb4-b88a-8ebb-24c1" hidden="false" targetId="93c5-ed67-a327-95e9" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="21fa-dfaa-8d2a-cc1e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="03d0-bacb-f163-0893" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Heavy Gun Drone" id="51f7-58e3-89b9-5dac" hidden="false" targetId="1d34-e486-f17a-a3c2" type="profile"/>
+            <infoLink name="Jetpack" id="88c2-f37f-9d5d-bbfd" hidden="false" targetId="9db9-94c1-ce97-f40a" type="rule"/>
+          </infoLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry id="3e9c-f3f1-1647-b580" name="Sky Ray (IA)" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
