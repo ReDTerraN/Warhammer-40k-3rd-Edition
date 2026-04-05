@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9d6b-d195-877e-09cb" name="Space Marines (1999)" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="96e2-b781-50d7-3d18" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="9d6b-d195-877e-09cb" name="Space Marines (1999)" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="96e2-b781-50d7-3d18" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <categoryEntries>
     <categoryEntry id="a527-734f-2081-58cd" name="Blood Angel" hidden="false"/>
     <categoryEntry id="5709-6bb9-f3f9-07f2" name="Sanguinary Priest" hidden="false"/>
@@ -184,7 +184,7 @@
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Ancient Helveticus (Chapter Approved)" hidden="false" id="073f-8fd6-8a92-d774" type="selectionEntry" targetId="f98d-e661-a9b7-39af"/>
-    <entryLink import="true" name="Captain Invictus" hidden="false" id="ffcb-c8b5-375e-09b0" type="selectionEntry" targetId="f95f-54de-870f-a05e"/>
+    <entryLink import="true" name="Captain Invictus (Chapter Approved)" hidden="false" id="ffcb-c8b5-375e-09b0" type="selectionEntry" targetId="f95f-54de-870f-a05e"/>
     <entryLink import="true" name="1st Company Space Marine Veteran Squad" hidden="false" id="207f-5707-089a-102a" type="selectionEntry" targetId="9915-58ba-ca4b-c19d"/>
     <entryLink import="true" name="1st Company Terminator Assault Squad" hidden="false" id="9e9f-360a-5f93-de89" type="selectionEntry" targetId="13a8-e789-aea5-f204"/>
     <entryLink import="true" name="1st Company Terminator Squad" hidden="false" id="3cf0-81dd-ec27-0424" type="selectionEntry" targetId="3739-5420-30b9-df87"/>
@@ -1328,7 +1328,7 @@
         <categoryLink id="bd7c-db56-4ddd-b21b" name="Dedicated Transport" hidden="false" targetId="a090-a855-c7de-f5c3" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="bc72-feb4-8705-5742" name="Space Marine Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="93a4-c4f2-3183-a640" type="selectionEntryGroup"/>
+        <entryLink id="bc72-feb4-8705-5742" name="Space Marine Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="93a4-c4f2-3183-a640" type="selectionEntryGroup" collapsible="true"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="50"/>
@@ -7084,7 +7084,7 @@ If Ancient Helveticus is killed, these benefits no longer apply for whoever pick
           <description>Ancient Helventicus&apos; armour save counts as being invulnerable.</description>
         </rule>
         <rule name="Protect the Flag!" id="3f35-a0a9-baae-638b" hidden="false" publicationId="26e5-ce39-9a6e-4817" page="120">
-          <description>If Ancient Helveticus is killed, leave the model in place to show where the banner has fallen. Regardless of the mission being played, the Ultramarine player now also has to full the victory conditions for a &apos;Rescue&apos; standard mission, treating the sadly departed Helveticus as the objective. If the Ultramarine player is not in possession of the banner at the end of the battle, they lose regardless of any other victory conditions. If they have the banner, they only win if they have fulfilled the victory conditions of the original mission as well. </description>
+          <description>If Ancient Helveticus is killed, leave the model in place to show where the banner has fallen. Regardless of the mission being played, the Ultramarine player now also has to full the victory conditions for a &apos;Rescue&apos; standard mission, treating the sadly departed Helveticus as the objective. If the Ultramarine player is not in possession of the banner at the end of the battle, they lose regardless of any other victory conditions. If they have the banner, they only win if they have fulfilled the victory conditions of the original mission as well.</description>
         </rule>
       </rules>
       <modifiers>
@@ -7203,7 +7203,7 @@ If Ancient Helveticus is killed, these benefits no longer apply for whoever pick
       </profiles>
       <rules>
         <rule name="Plasma Blaster" id="cc12-4bb3-4e14-5e9d" hidden="false" publicationId="26e5-ce39-9a6e-4817" page="123">
-          <description>The Plasma Blaster is a combi-weapon that incorporates two plasma guns on a weapon mount suitable for replacing the storm bolter on a suit of terminator armour. The Plasma Blaster counts as a twin-linked plasma gun that always shoots as if Invictus is stationary. </description>
+          <description>The Plasma Blaster is a combi-weapon that incorporates two plasma guns on a weapon mount suitable for replacing the storm bolter on a suit of terminator armour. The Plasma Blaster counts as a twin-linked plasma gun that always shoots as if Invictus is stationary.</description>
         </rule>
       </rules>
       <selectionEntries>
