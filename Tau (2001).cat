@@ -1465,7 +1465,6 @@ Additionally, any Tau unit joined by Aun&apos;shi gain +1 I and +1 A in close co
       </selectionEntries>
       <entryLinks>
         <entryLink id="df6b-8997-8a55-0f06" name="Tau Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="660d-edf9-04e6-9966" type="selectionEntryGroup"/>
-        <entryLink import="true" name="Escape Pods" hidden="false" id="cc75-4aab-6fbf-6d24" type="selectionEntry" targetId="e84a-d06a-0218-17b0"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="220"/>
