@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="571f-bded-9f3f-e9f6" name="Imperial Guard (1999)" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="96e2-b781-50d7-3d18" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="571f-bded-9f3f-e9f6" name="Imperial Guard (1999)" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="96e2-b781-50d7-3d18" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <categoryEntries>
     <categoryEntry id="d77a-7f37-0364-0a69" name="Officer" hidden="false"/>
     <categoryEntry id="d79c-fe5a-5220-47df" name="Catachan" hidden="false"/>
@@ -591,7 +591,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d9f4-c1f3-288d-02bf" name="Officer" hidden="false" collective="false" import="true" defaultSelectionEntryId="dc24-7ac6-76f4-98ac">
+        <selectionEntryGroup id="d9f4-c1f3-288d-02bf" name="Officer" hidden="false" collective="false" import="true" defaultSelectionEntryId="dc24-7ac6-76f4-98ac" collapsible="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1241-cc0d-b2f0-30e0" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab49-9a69-eff0-03de" type="max"/>
@@ -685,7 +685,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="38cc-dc4f-7777-d2c3" name="Guardsmen" hidden="false" collective="false" import="true" defaultSelectionEntryId="a714-271f-13d0-ffef">
+        <selectionEntryGroup id="38cc-dc4f-7777-d2c3" name="Guardsmen" hidden="false" collective="false" import="true" defaultSelectionEntryId="a714-271f-13d0-ffef" collapsible="true">
           <modifiers>
             <modifier type="set" field="683a-0074-2c64-91a9" value="3">
               <conditions>
@@ -1390,7 +1390,7 @@
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="95"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7a19-0a0c-3e8c-e0d0" name="Chimera" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7a19-0a0c-3e8c-e0d0" name="Chimera" hidden="false" collective="false" import="true" type="unit" collapsible="true">
       <rules>
         <rule id="4579-ea56-184f-7924" name="Firepoints" hidden="false">
           <description>The Chimera is fitted with six hull lasguns for passengers to use. Up to six passangers can use them to fire at single target. Additionally, one model may fire a weapon from the top hatch using their own weapon, but doing so turns the Chimera into an open topped vehicle until the next turn.</description>
@@ -1576,7 +1576,7 @@
     </selectionEntry>
     <selectionEntry id="2f85-d305-3fca-4cf7" name="Sentinel Squadron" hidden="false" collective="false" import="true" type="unit">
       <entryLinks>
-        <entryLink id="2fae-45a8-89f2-765f" name="Sentinel" hidden="false" collective="false" import="true" targetId="efb5-65a4-27b8-233d" type="selectionEntry">
+        <entryLink id="2fae-45a8-89f2-765f" name="Sentinel" hidden="false" collective="false" import="true" targetId="efb5-65a4-27b8-233d" type="selectionEntry" collapsible="true">
           <constraints>
             <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e58-1d33-72a4-b4f5" type="max"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ea6-6fdd-8b52-316d" type="min"/>
@@ -2425,7 +2425,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="f40d-cb42-c64f-8a6d" name="Guardsmen" hidden="false" collective="false" import="true" defaultSelectionEntryId="15bc-5681-1a08-6a54">
+        <selectionEntryGroup id="f40d-cb42-c64f-8a6d" name="Guardsmen" hidden="false" collective="false" import="true" defaultSelectionEntryId="15bc-5681-1a08-6a54" collapsible="true">
           <modifiers>
             <modifier type="set" field="10a7-e7ef-9c4d-9a37" value="3">
               <conditions>
@@ -3546,7 +3546,7 @@
         </infoLink>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="f967-11df-65f8-ab7b" name="Hull Weapon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="f967-11df-65f8-ab7b" name="Hull Weapon" hidden="false" collective="false" import="true" collapsible="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b59-7828-af89-23be" type="max"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d960-243b-ea42-8c7d" type="min"/>
@@ -3570,7 +3570,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="0cb5-3d50-1315-587f" name="Side Sponsons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="0cb5-3d50-1315-587f" name="Side Sponsons" hidden="false" collective="false" import="true" collapsible="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6592-0492-c037-d89a" type="max"/>
           </constraints>
@@ -3645,7 +3645,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="ae19-1259-6b98-f70d" name="Hull Weapon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="ae19-1259-6b98-f70d" name="Hull Weapon" hidden="false" collective="false" import="true" collapsible="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8919-d11b-34e3-af35" type="max"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a39b-e6c9-c657-cc2b" type="min"/>
@@ -3669,7 +3669,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="31a6-f941-af26-349d" name="Side Sponsons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="31a6-f941-af26-349d" name="Side Sponsons" hidden="false" collective="false" import="true" collapsible="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e841-4737-b6fc-58f8" type="max"/>
           </constraints>
@@ -3728,7 +3728,7 @@
         </infoLink>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="affa-b91b-bd09-6761" name="Hull Weapon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="affa-b91b-bd09-6761" name="Hull Weapon" hidden="false" collective="false" import="true" collapsible="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5e6-cd23-df5f-597c" type="max"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07a0-d0f9-041d-2ca7" type="min"/>
@@ -3752,7 +3752,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="49f2-0c62-9c6a-d4df" name="Side Sponsons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="49f2-0c62-9c6a-d4df" name="Side Sponsons" hidden="false" collective="false" import="true" collapsible="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49dd-74c7-6680-83b7" type="max"/>
           </constraints>
@@ -3781,7 +3781,7 @@
         <infoLink id="28cf-f238-8111-8c18" name="Leman Russ Demolisher" hidden="false" targetId="4aa6-6f73-e44c-e81c" type="profile"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="c431-65c9-7b7f-78b3" name="Hull Weapon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="c431-65c9-7b7f-78b3" name="Hull Weapon" hidden="false" collective="false" import="true" collapsible="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2546-c075-4198-7374" type="max"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35d9-8e04-95a3-161e" type="min"/>
@@ -3805,7 +3805,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="e263-7dfd-86c5-7e38" name="Side Sponsons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="e263-7dfd-86c5-7e38" name="Side Sponsons" hidden="false" collective="false" import="true" collapsible="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1216-9765-5422-d894" type="max"/>
           </constraints>
@@ -4227,7 +4227,7 @@
         </infoLink>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="816f-737f-0a07-3d6c" name="Hull Weapon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="816f-737f-0a07-3d6c" name="Hull Weapon" hidden="false" collective="false" import="true" collapsible="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de7b-9376-ff10-3cce" type="max"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87b6-0af4-1b3e-6c32" type="min"/>
@@ -4251,7 +4251,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="b5a7-85c2-c37c-11fa" name="Side Sponsons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="b5a7-85c2-c37c-11fa" name="Side Sponsons" hidden="false" collective="false" import="true" collapsible="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a73-88a1-471b-b143" type="max"/>
           </constraints>
@@ -4330,7 +4330,7 @@
         <infoLink id="c251-b3a6-09fd-d37f" name="Plasma Destroyer" hidden="false" targetId="2d7d-d376-d4c2-3f8c" type="profile"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9a22-f25f-9e4c-ecf8" name="Hull Weapon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="9a22-f25f-9e4c-ecf8" name="Hull Weapon" hidden="false" collective="false" import="true" collapsible="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0887-b56c-04e5-cd4a" type="max"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01d1-4e04-964a-5ba5" type="min"/>
@@ -4354,7 +4354,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="69a4-530e-f8e2-12c4" name="Side Sponsons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="69a4-530e-f8e2-12c4" name="Side Sponsons" hidden="false" collective="false" import="true" collapsible="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b0b-bc21-f4dd-430d" type="max"/>
           </constraints>
@@ -6462,7 +6462,7 @@ During the Imperial Guard Shooting Phase the Cyclops can be detonated. Place the
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="1ea9-b9d6-169d-273d" name="Single-Handed Weapons" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="1ea9-b9d6-169d-273d" name="Single-Handed Weapons" hidden="false" collective="false" import="true" collapsible="true">
       <constraints>
         <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f5e1-3ccc-6a31-5cec" type="max"/>
       </constraints>
@@ -6596,7 +6596,7 @@ During the Imperial Guard Shooting Phase the Cyclops can be detonated. Place the
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="2e09-0f06-a936-7cf5" name="Two-Handed Weapons" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="2e09-0f06-a936-7cf5" name="Two-Handed Weapons" hidden="false" collective="false" import="true" collapsible="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="155f-69fd-2f75-3cd9" type="max"/>
       </constraints>
@@ -6754,7 +6754,7 @@ During the Imperial Guard Shooting Phase the Cyclops can be detonated. Place the
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="3680-cabd-c2ee-32f4" name="Wargear" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="3680-cabd-c2ee-32f4" name="Wargear" hidden="false" collective="false" import="true" collapsible="true">
       <selectionEntries>
         <selectionEntry id="a8c7-8d36-c98a-ec75" name="Bionics" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -6933,7 +6933,7 @@ During the Imperial Guard Shooting Phase the Cyclops can be detonated. Place the
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="c0af-40a7-0f54-9847" name="Vehicle Upgrades" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="c0af-40a7-0f54-9847" name="Vehicle Upgrades" hidden="false" collective="false" import="true" collapsible="true">
       <selectionEntries>
         <selectionEntry id="a433-b113-da1d-68f1" name="Armored Crew Compartment" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -7272,7 +7272,7 @@ During the Imperial Guard Shooting Phase the Cyclops can be detonated. Place the
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="b14e-7e11-6347-bf2d" name="Imperial Guard Armory" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="b14e-7e11-6347-bf2d" name="Imperial Guard Armory" hidden="false" collective="false" import="true" collapsible="true">
       <selectionEntryGroups>
         <selectionEntryGroup id="7a3a-ba55-ec25-ac47" name="Weaponry" hidden="false" collective="false" import="true">
           <constraints>
