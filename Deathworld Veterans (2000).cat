@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ad32-b6ea-ff75-0635" name="Deathworld Veterans (2000)" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="96e2-b781-50d7-3d18" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="ad32-b6ea-ff75-0635" name="Deathworld Veterans (2000)" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="96e2-b781-50d7-3d18" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="72ea-1bed-c1ac-33c1" name="Booby Traps" hidden="false" collective="false" import="true" targetId="2fe3-cfe6-022f-be61" type="selectionEntry">
       <categoryLinks>
@@ -511,7 +511,7 @@
     </selectionEntry>
     <selectionEntry id="0159-b061-bb4d-5afb" name="Deathworld Infantry Platoon" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
-        <selectionEntryGroup id="537a-7901-3923-8b6e" name="Platoon Commander" hidden="false" collective="false" import="true" defaultSelectionEntryId="2435-850b-d681-c514">
+        <selectionEntryGroup id="537a-7901-3923-8b6e" name="Platoon Commander" hidden="false" collective="false" import="true" defaultSelectionEntryId="2435-850b-d681-c514" collapsible="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bee5-bb07-bf9f-5aba" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c47-ce29-5a34-c33c" type="max"/>
@@ -595,13 +595,13 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="29e8-b05b-82ca-0580" name="Deathworld Veteran Infantry Squad" hidden="false" collective="false" import="true" targetId="a66f-f63f-461b-a8ab" type="selectionEntry">
+        <entryLink id="29e8-b05b-82ca-0580" name="Deathworld Veteran Infantry Squad" hidden="false" collective="false" import="true" targetId="a66f-f63f-461b-a8ab" type="selectionEntry" collapsible="true">
           <constraints>
             <constraint field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1c3-1bb5-10a7-fefe" type="max"/>
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="267e-d3d2-ff59-0bdc" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="c1dc-02d6-50a2-044f" name="Deathworld Fire Support Weapons Squad" hidden="false" collective="false" import="true" targetId="1d98-5c4d-72cc-d244" type="selectionEntry">
+        <entryLink id="c1dc-02d6-50a2-044f" name="Deathworld Fire Support Weapons Squad" hidden="false" collective="false" import="true" targetId="1d98-5c4d-72cc-d244" type="selectionEntry" collapsible="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32c9-6f44-0064-bfd1" type="max"/>
           </constraints>
