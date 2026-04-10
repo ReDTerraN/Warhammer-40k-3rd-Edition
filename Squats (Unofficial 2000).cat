@@ -649,7 +649,7 @@
     </selectionEntry>
     <selectionEntry id="36c5-a1a0-d21a-9583" name="Thunderers" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="cdee-bb64-428f-370b" name="Dangerious Over Short Distances" hidden="false" targetId="fa84-af1e-096b-0f33" type="rule"/>
+        <infoLink id="cdee-bb64-428f-370b" name="Dangerous Over Short Distances" hidden="false" targetId="fa84-af1e-096b-0f33" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="428d-1e23-829f-0855" name="Guardian of the Forge" hidden="false" collective="false" import="true" type="upgrade">
@@ -1067,7 +1067,7 @@
           </constraints>
           <rules>
             <rule id="402a-1321-d877-d955" name="Iron Halo" hidden="false">
-              <description>The iron halo grants a 4+ invilnerable save.</description>
+              <description>The iron halo grants a 4+ invulnerable save.</description>
             </rule>
           </rules>
           <costs>
@@ -1168,7 +1168,7 @@ However, if the model bearing the standard is slain in close combat, then the en
           </constraints>
           <rules>
             <rule id="0b17-db68-63ff-e3d2" name="Sacred Standard" hidden="false">
-              <description>Add +1 to the Squat combat resolution socre of any assault that takes place within 6&quot; of the Sacred Banner.
+              <description>Add +1 to the Squat combat resolution score of any assault that takes place within 6&quot; of the Sacred Banner.
 However, if the model bearing the standard is slain in close combat, then the enemy model that slew him captures the standard gains the +1 bonus to combat resolution from then on. It is possible for the model to change hands multiple times per game.</description>
             </rule>
           </rules>
@@ -1329,7 +1329,7 @@ However, if the model bearing the standard is slain in close combat, then the en
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="1.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="10f8-944b-7a40-91cb" name="Hunter-Killer Missle" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="10f8-944b-7a40-91cb" name="Hunter-Killer Missile" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96e9-4098-2544-f0d0" type="max"/>
           </constraints>

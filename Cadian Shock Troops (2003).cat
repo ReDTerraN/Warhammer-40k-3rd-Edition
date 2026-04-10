@@ -135,7 +135,7 @@
           <description>If a psychic power would normally affect the Sanctioned Psyker or the unit he is accompanying, make a Psychic test. If the test is passed then roll a D6. On a 4+ the power is cancelled.</description>
         </rule>
         <rule id="daad-7363-bb0c-1107" name="Psychic Lash" hidden="false">
-          <description>Make a Psychic test at the start of the Imperial Guard Assault phase. If successful, the power remains in phase until the start of the next Imperial Guard Assault phase. Thje Psyker&apos;s may choose to use the Lash in place of its normal attacks. The Psyker gets D3 Attacks (with no bonuses) at Strength 3, with any wounds ignoring Armour saves.</description>
+          <description>Make a Psychic test at the start of the Imperial Guard Assault phase. If successful, the power remains in phase until the start of the next Imperial Guard Assault phase. The Psyker&apos;s may choose to use the Lash in place of its normal attacks. The Psyker gets D3 Attacks (with no bonuses) at Strength 3, with any wounds ignoring Armour saves.</description>
         </rule>
         <rule id="dcce-7283-ce71-2117" name="Machine Curse" hidden="false">
           <description>Make the Psychic test at the start of the Assault phase. If passed the power is effective until the end of the same Assault phase. Make one close combat attack against a vehicle in base contact with the Psyker. If a hit is scored, roll a D6:

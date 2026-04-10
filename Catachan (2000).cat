@@ -470,7 +470,7 @@
               </constraints>
               <rules>
                 <rule id="e517-3a08-8947-0212" name="Recovery Vehicle" hidden="false">
-                  <description>The Atlast can drag any destroyed or immobilised vehicle (friend or foe) that starts the turn in contact with it. Both vehicles may move up to D6&quot; and must remain in base contact at the end of the move. Neither vehicle may shoot in the same turn that they are towing or being towed, except that the vehicle may fire one weapon at the Atlast if it is able and wants.</description>
+                  <description>The Atlast can drag any destroyed or immobilized vehicle (friend or foe) that starts the turn in contact with it. Both vehicles may move up to D6&quot; and must remain in base contact at the end of the move. Neither vehicle may shoot in the same turn that they are towing or being towed, except that the vehicle may fire one weapon at the Atlast if it is able and wants.</description>
                 </rule>
               </rules>
               <infoLinks>

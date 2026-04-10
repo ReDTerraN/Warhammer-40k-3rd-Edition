@@ -830,7 +830,7 @@
       </constraints>
       <rules>
         <rule id="1607-ea2c-27f0-885b" name="Forward Scouts" hidden="false">
-          <description>In scenarioes where some troops start in reserve and others on the table, Pathfinders always deploy on the table. Pathfinders may make a normal move after deployment but before the first turn. This move may include disembarking from the Devilfish.</description>
+          <description>In scenarios where some troops start in reserve and others on the table, Pathfinders always deploy on the table. Pathfinders may make a normal move after deployment but before the first turn. This move may include disembarking from the Devilfish.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -1036,7 +1036,7 @@
 Once attached, the Kroot Hounds function as part of the Carnivore squad they are attached to. Their Leadership and Armor save will be the same as the unit they are attached to.</description>
         </rule>
         <rule id="e25a-eb1b-1bb2-5d3e" name="Release the Hounds" hidden="false">
-          <description>If enemy Fall Back from close combat with a Kroot unit, each Kroot Hound will inflict a single automatice Strength 4 hit on an enemy model.</description>
+          <description>If enemy Fall Back from close combat with a Kroot unit, each Kroot Hound will inflict a single automatic Strength 4 hit on an enemy model.</description>
         </rule>
       </rules>
       <categoryLinks>

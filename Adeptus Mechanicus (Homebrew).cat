@@ -56,12 +56,12 @@ Vehicles all use the vehicle design rule if a comparable unit from the 2003 Impe
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="4a1e-aa8d-557f-d504" name="Skitarii" hidden="false" collective="false" import="true" type="unit">
-      <comment>Skitarri Rangers and Skitarri Vanguard combined into a single entry</comment>
+      <comment>Skitarii Rangers and Skitarii Vanguard combined into a single entry</comment>
       <categoryLinks>
         <categoryLink id="60f5-05df-4119-3799" name="Troops" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="0a7e-514d-fb58-a6cc" name="Frag Genades" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0a7e-514d-fb58-a6cc" name="Frag Grenades" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="increment" field="4ed5-2f92-9abc-2870" value="1">
               <repeats>
@@ -107,7 +107,7 @@ Total = 12 Each</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="38f4-81b6-d295-44b0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
               <infoLinks>
-                <infoLink name="Skitarri Alpha" id="58af-4891-88b1-b078" hidden="false" targetId="947b-6854-b79e-d786" type="profile"/>
+                <infoLink name="Skitarii Alpha" id="58af-4891-88b1-b078" hidden="false" targetId="947b-6854-b79e-d786" type="profile"/>
                 <infoLink name="Laspistol" id="040b-d4aa-d443-456c" hidden="false" targetId="95a9-d270-d218-1772" type="profile"/>
                 <infoLink name="Close Combat Weapon" id="7b3c-6458-9ffd-1645" hidden="false" targetId="46d5-85f2-d932-f0a2" type="profile"/>
               </infoLinks>
@@ -277,7 +277,7 @@ Total = 12 Each</comment>
       </constraints>
       <rules>
         <rule id="3328-92b6-3f5f-79c3" name="Blessing of the Machine-God" hidden="false">
-          <description>If the Enginseer starts the turn in contact with a damaged vehicle he may attempt to make a repair. If the vehicle is Immoblisied or has a Weapon Destroyed, one of these is repaired on a roll of 6+. The Techpriest gains +1 on this roll for each Technical Servitor he has with him.</description>
+          <description>If the Enginseer starts the turn in contact with a damaged vehicle he may attempt to make a repair. If the vehicle is immobilized or has a Weapon Destroyed, one of these is repaired on a roll of 6+. The Techpriest gains +1 on this roll for each Technical Servitor he has with him.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -436,7 +436,7 @@ The extra arm for these guys do nothing (they heavy stubber is just for looks)</
       </costs>
     </selectionEntry>
     <selectionEntry id="e6e9-c049-2c76-dc74" name="Kastelan Maniple" hidden="false" collective="false" import="true" type="unit">
-      <comment>These will just be smaller versions of dreadnaughts. Sorta of like KillaKans</comment>
+      <comment>These will just be smaller versions of dreadnoughts. Sorta of like KillaKans</comment>
       <categoryLinks>
         <categoryLink id="ffc3-1913-94d2-6e79" name="Elites" hidden="false" targetId="6d25-b346-c314-6911" primary="true"/>
       </categoryLinks>
@@ -772,7 +772,7 @@ Speed: Normal = 10</comment>
               </costs>
             </selectionEntry>
             <selectionEntry id="e473-a70d-d12b-9c1e" name="Rocket Launcher &amp; Twin-Linked Autocannon" hidden="false" collective="false" import="true" type="upgrade">
-              <comment>35 for autocannon and 40 for missle launcher</comment>
+              <comment>35 for autocannon and 40 for missile launcher</comment>
               <rules>
                 <rule id="e20d-317b-4602-a455" name="Gattling" hidden="false">
                   <description>Any weapons with gatling takes D3 shots for each shot they would normally fire. Weapons with a template must place additional templates touching the first using the rules for mortars and other Guess range weapons.</description>

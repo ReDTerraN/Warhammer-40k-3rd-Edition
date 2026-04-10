@@ -431,7 +431,7 @@
 In addition, if they do fail a Morale check, they will become pinned instead of falling back. However, they fall back in close combat as normal.</description>
     </rule>
     <rule id="b0df-bc87-7a32-f38d" name="Chem-Riders" hidden="false">
-      <description>All Savlar Chem-Riders benefit from an Invulternal 5+ save.</description>
+      <description>All Savlar Chem-Riders benefit from an Invulnerable 5+ save.</description>
     </rule>
   </sharedRules>
   <sharedInfoGroups>

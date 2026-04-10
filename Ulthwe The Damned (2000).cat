@@ -727,8 +727,8 @@
             </selectionEntry>
             <selectionEntry id="0477-fb71-f070-ffb2" name="Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="287c-2ee1-7070-556f" name="Missle Launcher (frag)" hidden="false" targetId="aa04-2d5e-da7e-2d25" type="profile"/>
-                <infoLink id="611f-c802-2028-335e" name="Missle Launcher (krak)" hidden="false" targetId="4e6c-7b62-ba6d-05cf" type="profile"/>
+                <infoLink id="287c-2ee1-7070-556f" name="Missile Launcher (frag)" hidden="false" targetId="aa04-2d5e-da7e-2d25" type="profile"/>
+                <infoLink id="611f-c802-2028-335e" name="Missile Launcher (krak)" hidden="false" targetId="4e6c-7b62-ba6d-05cf" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="55.0"/>
