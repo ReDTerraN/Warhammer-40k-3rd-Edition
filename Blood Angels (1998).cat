@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0e77-e514-f572-9f22" name="Blood Angels (1998)" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="96e2-b781-50d7-3d18" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="0e77-e514-f572-9f22" name="Blood Angels (1998)" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="96e2-b781-50d7-3d18" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="92f9-64d9-1933-a089" name="Vindicator" hidden="false" collective="false" import="true" targetId="86f9-0db1-c67b-3442" type="selectionEntry">
       <infoLinks>

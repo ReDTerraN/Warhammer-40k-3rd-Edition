@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5aba-6538-2bba-16b1" name="Feral Orks (Chapter Approved 2004)" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="96e2-b781-50d7-3d18" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="5aba-6538-2bba-16b1" name="Feral Orks (Chapter Approved 2004)" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="96e2-b781-50d7-3d18" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="fa70-e1a9-f2a3-296e" name="Gretchin Mobz" hidden="false" collective="false" import="true" targetId="d0d3-94d0-bd7c-4592" type="selectionEntry">
       <categoryLinks>

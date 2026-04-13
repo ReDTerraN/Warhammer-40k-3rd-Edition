@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9d6b-d195-877e-09cb" name="Space Marines (1999)" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="96e2-b781-50d7-3d18" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="9d6b-d195-877e-09cb" name="Space Marines (1999)" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="96e2-b781-50d7-3d18" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <categoryEntries>
     <categoryEntry id="a527-734f-2081-58cd" name="Blood Angel" hidden="false"/>
     <categoryEntry id="5709-6bb9-f3f9-07f2" name="Sanguinary Priest" hidden="false"/>
