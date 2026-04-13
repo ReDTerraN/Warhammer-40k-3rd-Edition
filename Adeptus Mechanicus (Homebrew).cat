@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6f1b-a880-af7d-2195" name="Adeptus Mechanicus (Homebrew)" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="96e2-b781-50d7-3d18" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="6f1b-a880-af7d-2195" name="Adeptus Mechanicus (Homebrew)" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="96e2-b781-50d7-3d18" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <readme>Rather than attempt to point everything based on arbitrary decisions, the Ad Mech list is based on using the 2003 Imperial Guard Codex with the regimental doctrines of Cyber-Enhancement, Carapace Armour, Sharpshooters, and Chem-Inhaler baked in, without limited access to certain specialized units.
 
 Vehicles all use the vehicle design rule if a comparable unit from the 2003 Imperial Guard Codex does not exist.</readme>
@@ -107,7 +107,7 @@ Total = 12 Each</comment>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="38f4-81b6-d295-44b0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
               <infoLinks>
-                <infoLink name="Skitarii Alpha" id="58af-4891-88b1-b078" hidden="false" targetId="947b-6854-b79e-d786" type="profile"/>
+                <infoLink name="Skitarri Alpha" id="58af-4891-88b1-b078" hidden="false" targetId="947b-6854-b79e-d786" type="profile"/>
                 <infoLink name="Laspistol" id="040b-d4aa-d443-456c" hidden="false" targetId="95a9-d270-d218-1772" type="profile"/>
                 <infoLink name="Close Combat Weapon" id="7b3c-6458-9ffd-1645" hidden="false" targetId="46d5-85f2-d932-f0a2" type="profile"/>
               </infoLinks>
@@ -1841,11 +1841,10 @@ Armour 12-10-10 = Total = 42</comment>
     </profile>
     <profile id="f426-f3c5-1f74-a330" name="Skorpius Disintegrator" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
       <characteristics>
-        <characteristic name="Front Armor" typeId="70ae-7a97-7e70-93ea">12</characteristic>
-        <characteristic name="Side Armor" typeId="bcca-0b51-9187-2e4e">10</characteristic>
-        <characteristic name="Rear Armor" typeId="929b-c9cc-001b-3705">10</characteristic>
-        <characteristic name="BS" typeId="ae25-5be4-5470-2204">3</characteristic>
-        <characteristic name="Capacity" typeId="ec07-2d55-2ba5-6080">12</characteristic>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">12</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
       </characteristics>
     </profile>
     <profile id="62c3-f3f3-b6e6-5354" name="Ironstrider" hidden="false" typeId="5119-5456-6e97-4fc2" typeName="Walker">
@@ -1950,9 +1949,9 @@ Armour 12-10-10 = Total = 42</comment>
     <profile id="bc4b-e2d4-302e-9abf" name="Servo-Arm" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
-        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">User x2</characteristic>
-        <characteristic name="AP" typeId="25ce-028f-0aae-2855">1</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">Melee</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">1</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">User x2</characteristic>
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Makes a single attack, hitting on a 4+. independently of the Techpriests attacks. Ignores all armour saves.</characteristic>
       </characteristics>
     </profile>
